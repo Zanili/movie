@@ -1,0 +1,45 @@
+<template>
+    <div id="main">
+        <Header title="我的"></Header>
+        <div id="content">
+            <login></login>
+            
+        </div>
+        
+        
+        
+
+
+
+        <TabBar></TabBar>
+
+    </div>
+</template>
+
+
+
+<script>
+
+    import  Header from "@/components/Header";
+    import  TabBar from "@/components/TabBar";
+    import  Login  from "@/components/Login";
+    
+    export default {
+        name: "Mine",
+        components: {
+            Login,
+            Header,
+            TabBar,
+            Login
+        }
+    }
+
+
+</script>
+
+
+
+
+<style scoped >
+
+</style>
